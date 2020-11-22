@@ -1,0 +1,559 @@
+{
+    "title": "SELECT instructor, id WHERE id = 123",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_id": "123"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_id"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "monga, vishakha",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "crane, angela;lekhi, priya;sammis, glenn;straus, suzana",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "crane, angela;lekhi, priya;schafer, laurel",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "crane, angela;lekhi, priya;ryan, katherine;straus, suzana",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "crane, angela;grant, edward;lekhi, priya;ryan, katherine",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "crane, angela;grant, edward;lekhi, priya;sammis, glenn",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "bates, gordon;crane, angela;lekhi, priya",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "bates, gordon;crane, angela;lekhi, priya;li, hongbin",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya;love, jennifer ann",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "addison, christopher;lekhi, priya;love, jennifer ann;sammis, glenn",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "addison, christopher;lekhi, priya;love, jennifer ann;sammis, glenn",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "grant, edward;lekhi, priya;love, jennifer ann;sherman, john",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "grant, edward;lekhi, priya;love, jennifer ann;sherman, john",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;rogers, christine",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;rogers, christine",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya;love, jennifer ann",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "bizzotto, dan;lekhi, priya;sammis, glenn",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "addison, christopher;lekhi, priya;ryan, katherine",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "addison, christopher;lekhi, priya;ryan, katherine",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "grant, edward;kunz, tamara;lekhi, priya",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "grant, edward;lekhi, priya;sammis, glenn",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "bizzotto, dan;kunz, tamara;lekhi, priya",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "bizzotto, dan;lekhi, priya;love, jennifer ann;macfarlane, william andrew",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;ruddick, john n r",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;ruddick, john n r",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;patey, grenfell;sherman, john",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;patey, grenfell;sherman, john",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;stewart, jaclyn",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;stewart, jaclyn",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;monga, vishakha",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "addison, christopher",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "dake, gregory;li, hongbin",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "schafer, laurel",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "johnson, kayli",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "ryan, katherine",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "sammis, glenn",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "bates, gordon;lekhi, priya",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "bates, gordon;lekhi, priya",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya;sammis, glenn;straus, suzana",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "addison, christopher;lekhi, priya;ryan, katherine",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "addison, christopher;lekhi, priya;ryan, katherine",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "grant, edward;kunz, tamara;lekhi, priya",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "grant, edward;lekhi, priya;sammis, glenn",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "kunz, tamara;lekhi, priya;straus, suzana",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya;monga, vishakha",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "johnson, kayli;lindenberg, erin",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "schafer, laurel",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "chou, keng chang;hein, jason",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "chou, keng chang;hein, jason",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "sammis, glenn",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "crane, angela;li, hongbin",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "lekhi, priya",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "crane, angela;li, hongbin",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "crane, angela;wang, yan",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "onyeoziri-miller, gloria",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "bodolec, jacques",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "scott, anne",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "o'hagan, michael",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "miller, robert",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "culbert, john",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "godfrey, sima",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "rocheleau, alain-michel",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "rocheleau, alain-michel",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "scott, anne",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "miller, robert",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "miller, robert",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "shilliday, molleen",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "hodgson, richard",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "simpson, anne",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "scott, anne",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "miller, robert",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "phan, chantal",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "o'hagan, michael",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "o'brien, juliet",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "rocheleau, alain-michel",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "o'hagan, michael",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "miller, robert",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "o'hagan, michael",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "scott, anne",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "winder, william",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "culbert, john",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "leplat, farah;miller, robert;scott, anne",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "laroussi, farid",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "o'brien, juliet",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "onyeoziri-miller, gloria",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "scott, anne",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "hodgson, richard",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "duggan, maryse",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "bodolec, jacques",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "scott, anne",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "miller, robert",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "rocheleau, alain-michel",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "winder, william",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "duggan, maryse",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "godfrey, sima",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "bascou vallarino, sylvia",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "cheinman, ksenia;scott, anne",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "bascou vallarino, sylvia;miller, robert;scott, anne",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "hodgson, richard",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "o'brien, juliet",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "miller, robert",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "scott, anne",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "simpson, anne",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "winder, william",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "123"
+        }
+    ]
+}

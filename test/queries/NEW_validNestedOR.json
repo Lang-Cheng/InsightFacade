@@ -1,0 +1,131 @@
+{
+    "title": "Nested Or for string",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "rooms_seats": 200
+                    }
+                },
+                {
+                    "OR": [
+                        {
+                            "IS": {
+                                "rooms_fullname": "*s"
+                            }
+                        },
+                        {
+                            "IS": {
+                                "rooms_shortname": "*S"
+                            }
+                        },
+                        {
+                            "IS": {
+                                "rooms_number": "*d"
+                            }
+                        },
+                        {
+                            "IS": {
+                                "rooms_address": "*d"
+                            }
+                        },
+                        {
+                            "IS": {
+                                "rooms_type": "*m*"
+                            }
+                        },
+                        {
+                            "IS": {
+                                "rooms_furniture": "*s"
+                            }
+                        },
+                        {
+                            "IS": {
+                                "rooms_href": "j*"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_href"
+            ],
+            "ORDER": "rooms_href"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-098"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/BIOL-2000"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/BUCH-A101"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHEM-B150"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHEM-B250"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CIRS-1250"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ESB-1013"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FSC-1005"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/GEOG-100"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/HEBB-100"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/HENN-200"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LSC-1001"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LSC-1002"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LSK-200"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MATH-100"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/OSBO-A"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PHRM-1101"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-100"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SRC-220A"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SRC-220B"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SRC-220C"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WESB-100"
+        },
+        {
+            "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-2"
+        }
+    ]
+}

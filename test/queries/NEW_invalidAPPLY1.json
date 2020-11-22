@@ -1,0 +1,40 @@
+{
+    "title": "Apply rule must be object",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "LT": {
+                        "courses_avg": 89.1
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_avg": 89
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "courses_avg"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_avg"
+            ],
+            "APPLY": [
+                ""
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

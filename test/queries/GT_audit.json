@@ -1,0 +1,139 @@
+{
+    "title": "SELECT id, dept WHERE audit > 10",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_audit": 10
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_id",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_id": "509",
+            "courses_dept": "biol"
+        },
+        {
+            "courses_id": "509",
+            "courses_dept": "biol"
+        },
+        {
+            "courses_id": "301",
+            "courses_dept": "cnto"
+        },
+        {
+            "courses_id": "340",
+            "courses_dept": "cons"
+        },
+        {
+            "courses_id": "340",
+            "courses_dept": "cpsc"
+        },
+        {
+            "courses_id": "340",
+            "courses_dept": "cpsc"
+        },
+        {
+            "courses_id": "540",
+            "courses_dept": "cpsc"
+        },
+        {
+            "courses_id": "540",
+            "courses_dept": "cpsc"
+        },
+        {
+            "courses_id": "101",
+            "courses_dept": "fren"
+        },
+        {
+            "courses_id": "530",
+            "courses_dept": "frst"
+        },
+        {
+            "courses_id": "530",
+            "courses_dept": "frst"
+        },
+        {
+            "courses_id": "530",
+            "courses_dept": "frst"
+        },
+        {
+            "courses_id": "530",
+            "courses_dept": "frst"
+        },
+        {
+            "courses_id": "501",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "501",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "501",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "501",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "503",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "503",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "503",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "503",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "503",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "505",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "505",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "507",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "507",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "507",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "509",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "509",
+            "courses_dept": "rhsc"
+        },
+        {
+            "courses_id": "509",
+            "courses_dept": "rhsc"
+        }
+    ]
+}

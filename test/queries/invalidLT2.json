@@ -1,0 +1,16 @@
+{
+    "title": "LT should only have 1 key, has 0",
+    "query": {
+        "WHERE": {
+            "LT": {}
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

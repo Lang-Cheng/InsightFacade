@@ -1,0 +1,16 @@
+{
+    "title": "LT must be object",
+    "query": {
+        "WHERE": {
+            "LT": ""
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

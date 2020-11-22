@@ -1,0 +1,943 @@
+{
+    "title": "SELECT instructor, dept WHERE avg > 95",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 95
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_instructor": "bishundayal, deonarine",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_instructor": "wassink, berend",
+            "courses_dept": "apsc"
+        },
+        {
+            "courses_instructor": "wassink, berend",
+            "courses_dept": "apsc"
+        },
+        {
+            "courses_instructor": "wassink, berend",
+            "courses_dept": "apsc"
+        },
+        {
+            "courses_instructor": "wassink, berend",
+            "courses_dept": "apsc"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "arst"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "arst"
+        },
+        {
+            "courses_instructor": "adelman, sharon",
+            "courses_dept": "audi"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "audi"
+        },
+        {
+            "courses_instructor": "hodgson, antony",
+            "courses_dept": "bmeg"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "bmeg"
+        },
+        {
+            "courses_instructor": "gopaluni, bhushan",
+            "courses_dept": "chbe"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "chbe"
+        },
+        {
+            "courses_instructor": "gopaluni, bhushan",
+            "courses_dept": "chbe"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "chbe"
+        },
+        {
+            "courses_instructor": "ventura, carlos estuardo",
+            "courses_dept": "civl"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "civl"
+        },
+        {
+            "courses_instructor": "owens, rhea",
+            "courses_dept": "cnps"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "cnps"
+        },
+        {
+            "courses_instructor": "weinberg, mark",
+            "courses_dept": "cnps"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "cnps"
+        },
+        {
+            "courses_instructor": "cox, daniel",
+            "courses_dept": "cnps"
+        },
+        {
+            "courses_instructor": "neault, roberta a",
+            "courses_dept": "cnps"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "cnps"
+        },
+        {
+            "courses_instructor": "cox, daniel",
+            "courses_dept": "cnps"
+        },
+        {
+            "courses_instructor": "carter, john",
+            "courses_dept": "cnps"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "cnps"
+        },
+        {
+            "courses_instructor": "munteanu, mircea",
+            "courses_dept": "cnps"
+        },
+        {
+            "courses_instructor": "campbell, deborah",
+            "courses_dept": "crwr"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "crwr"
+        },
+        {
+            "courses_instructor": "medved, maureen",
+            "courses_dept": "crwr"
+        },
+        {
+            "courses_instructor": "campbell, deborah",
+            "courses_dept": "crwr"
+        },
+        {
+            "courses_instructor": "taylor, timothy",
+            "courses_dept": "crwr"
+        },
+        {
+            "courses_instructor": "maillard, keith",
+            "courses_dept": "crwr"
+        },
+        {
+            "courses_instructor": "galloway, steve",
+            "courses_dept": "crwr"
+        },
+        {
+            "courses_instructor": "grady, albert wayne",
+            "courses_dept": "crwr"
+        },
+        {
+            "courses_instructor": "maillard, keith",
+            "courses_dept": "crwr"
+        },
+        {
+            "courses_instructor": "maillard, keith",
+            "courses_dept": "crwr"
+        },
+        {
+            "courses_instructor": "magee, theresa",
+            "courses_dept": "edcp"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "edcp"
+        },
+        {
+            "courses_instructor": "marker, michael",
+            "courses_dept": "edst"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "edst"
+        },
+        {
+            "courses_instructor": "vanwynsberghe, robert",
+            "courses_dept": "edst"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "edst"
+        },
+        {
+            "courses_instructor": "morgan, tannis",
+            "courses_dept": "educ"
+        },
+        {
+            "courses_instructor": "adler, james douglas;scott, sandra",
+            "courses_dept": "educ"
+        },
+        {
+            "courses_instructor": "coria, lino",
+            "courses_dept": "eece"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "eece"
+        },
+        {
+            "courses_instructor": "porath, marion",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "stockman, james",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "gaster, sean",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "romero, amber",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "porath, marion",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "mceachern hughes, tammy",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "levinson, tami",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "cole, kenneth",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "cole, kenneth",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "cole, kenneth",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "cole, kenneth",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "ervin, ruth",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "smith, gillian",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "champion, kathleen",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "grow, laura",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "grow, laura",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "wilk, diana",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "grow, laura",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "grow, laura",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "grow, laura",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "kishor, nand",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "porath, marion",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "porath, marion",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "cannon, joanna",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "mcquarrie, maureen",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "kishor, nand",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "kishor, nand",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "chan, eric",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "amaral, deborah;ford, laurie",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "amaral, deborah;ford, laurie",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "grow, laura",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "ford, laurie",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "weber, rachel",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "wu, amery",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "wu, amery",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "kishor, nand",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "kishor, nand",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "kishor, nand",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "porath, marion",
+            "courses_dept": "epse"
+        },
+        {
+            "courses_instructor": "marker, michael",
+            "courses_dept": "etec"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "etec"
+        },
+        {
+            "courses_instructor": "marker, michael",
+            "courses_dept": "etec"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "etec"
+        },
+        {
+            "courses_instructor": "marker, michael",
+            "courses_dept": "etec"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "etec"
+        },
+        {
+            "courses_instructor": "feng, francis",
+            "courses_dept": "etec"
+        },
+        {
+            "courses_instructor": "petrina, stephen",
+            "courses_dept": "etec"
+        },
+        {
+            "courses_instructor": "milner-bolotin, marina",
+            "courses_dept": "etec"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "etec"
+        },
+        {
+            "courses_instructor": "milner-bolotin, marina",
+            "courses_dept": "etec"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "etec"
+        },
+        {
+            "courses_instructor": "wenzek, rob",
+            "courses_dept": "fipr"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "fipr"
+        },
+        {
+            "courses_instructor": "timko, joleen",
+            "courses_dept": "frst"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "frst"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "hgse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "hgse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "hgse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "hgse"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "kin"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "kin"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "kin"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "kin"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "kin"
+        },
+        {
+            "courses_instructor": "farrell, adam",
+            "courses_dept": "libr"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "libr"
+        },
+        {
+            "courses_instructor": "karu, kalle",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "murugan, mathav",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "wei, juncheng",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "fraser, ailana",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "gomez, jose",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "karu, kalle",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "gordon, julia yulia",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "laba, izabella",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "nachmias, asaf",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "math"
+        },
+        {
+            "courses_instructor": "mcrae, lorna",
+            "courses_dept": "midw"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "midw"
+        },
+        {
+            "courses_instructor": "veiga, marcello",
+            "courses_dept": "mine"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "mine"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "mine"
+        },
+        {
+            "courses_instructor": "dunbar, w scott",
+            "courses_dept": "mine"
+        },
+        {
+            "courses_instructor": "dunbar, w scott",
+            "courses_dept": "mine"
+        },
+        {
+            "courses_instructor": "dixon, david",
+            "courses_dept": "mtrl"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "mtrl"
+        },
+        {
+            "courses_instructor": "girard, jonathan",
+            "courses_dept": "musc"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "musc"
+        },
+        {
+            "courses_instructor": "girard, jonathan",
+            "courses_dept": "musc"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "musc"
+        },
+        {
+            "courses_instructor": "brew, nancy",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "krist, jennifer",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "harding, jillian",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "krist, jennifer;mccuaig, fairleth",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "brew, nancy",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "krist, jennifer",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "burrows, marlene;harding, jillian;krist, jennifer;mccuaig, fairleth",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "burrows, marlene;harding, jillian;krist, jennifer;mccuaig, fairleth",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "burrows, marlene",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "brew, nancy",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "nurs"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "pcth"
+        },
+        {
+            "courses_instructor": "lalji, fawziah;seto, katherine",
+            "courses_dept": "phar"
+        },
+        {
+            "courses_instructor": "jackson, howard",
+            "courses_dept": "phil"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "phth"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "phth"
+        },
+        {
+            "courses_instructor": "stamp, philip c",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "dorcey, anthony h j",
+            "courses_dept": "plan"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "plan"
+        },
+        {
+            "courses_instructor": "de longis, anita",
+            "courses_dept": "psyc"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "psyc"
+        },
+        {
+            "courses_instructor": "sochting, ingrid",
+            "courses_dept": "psyc"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "psyc"
+        },
+        {
+            "courses_instructor": "wagner, john",
+            "courses_dept": "psyc"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "psyc"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "psyc"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "psyc"
+        },
+        {
+            "courses_instructor": "gill, deana",
+            "courses_dept": "sowk"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "sowk"
+        },
+        {
+            "courses_instructor": "bryson, stephanie;o'connor, deborah;stainton, timothy;sullivan, t richard;tester, frank",
+            "courses_dept": "sowk"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "sowk"
+        },
+        {
+            "courses_instructor": "gill, deana",
+            "courses_dept": "sowk"
+        },
+        {
+            "courses_instructor": "frankish, charles james",
+            "courses_dept": "spph"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "spph"
+        },
+        {
+            "courses_instructor": "frank, erica",
+            "courses_dept": "spph"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "spph"
+        },
+        {
+            "courses_instructor": "sobolev, boris",
+            "courses_dept": "spph"
+        },
+        {
+            "courses_instructor": "kishchenko, svetlana",
+            "courses_dept": "spph"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "spph"
+        },
+        {
+            "courses_instructor": "pourbohloul, babak",
+            "courses_dept": "spph"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "spph"
+        },
+        {
+            "courses_instructor": "frankish, charles james",
+            "courses_dept": "spph"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "spph"
+        },
+        {
+            "courses_instructor": "mclean, jayson",
+            "courses_dept": "thtr"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "thtr"
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "title": "SELECT pass, year WHERE pass = 200",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "courses_pass": 200
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_year"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_pass": 200,
+            "courses_year": 2013
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2008
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2009
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2013
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2010
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2012
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2010
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2012
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2014
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2013
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2009
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2012
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2011
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2007
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2008
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2012
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 1900
+        },
+        {
+            "courses_pass": 200,
+            "courses_year": 2014
+        }
+    ]
+}

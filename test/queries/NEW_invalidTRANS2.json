@@ -1,0 +1,36 @@
+{
+    "title": "GROUP must be a non-empty array",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "LT": {
+                        "courses_avg": 89.1
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_avg": 89
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg",
+                "countid"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "courses_avg"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": ""
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Excess keys in query",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                {},
+                "courses_audit"
+            ]
+        },
+        "": ""
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,45 @@
+{
+    "title": "SELECT courses_avg, countid WHERE 89 < courses_avg < 89.1 ORDER DOWN by courses_avg, GROUP by courses_avg, COUNT courses_id",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "LT": {
+                        "rooms_lon": 89.1
+                    }
+                },
+                {
+                    "GT": {
+                        "rooms_lon": 89
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_lon",
+                "countid"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "rooms_lon"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_lon"
+            ],
+            "APPLY": [
+                {
+                    "countid": {
+                        "AVG": "rooms_lat"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": []
+}

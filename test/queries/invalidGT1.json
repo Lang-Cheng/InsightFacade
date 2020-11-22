@@ -1,0 +1,16 @@
+{
+    "title": "GT must be object",
+    "query": {
+        "WHERE": {
+            "GT": ""
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

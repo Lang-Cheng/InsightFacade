@@ -1,0 +1,28 @@
+{
+    "title": "Test room name",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "rooms_seats": 500
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_name",
+                "rooms_seats"
+            ],
+            "ORDER": "rooms_name"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "rooms_name": "WOOD_2",
+            "rooms_seats": 503
+        }
+    ]
+}

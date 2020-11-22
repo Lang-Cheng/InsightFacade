@@ -1,0 +1,29 @@
+{
+    "title": "Invalid ORDER direction",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "LT": {
+                        "courses_avg": 89.1
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_avg": 89
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg"
+            ],
+            "ORDER": {
+                "dir": "asdf"
+            }
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Invalid filter key: 123",
+    "query": {
+        "WHERE": {
+            "123": "123"
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

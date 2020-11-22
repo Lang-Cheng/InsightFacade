@@ -1,0 +1,187 @@
+{
+    "title": "SELECT instructor, id WHERE title = physics*",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_title": "physics*"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_id"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_instructor": "waltham, christopher",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "jones, david",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "jones, david;michal, carl",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "jones, david",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "jones, david;michal, carl",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "michal, carl;pennec, yan herve loic",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "michal, carl",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "michal, carl;pennec, yan herve loic",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "michal, carl",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "waltham, christopher",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "waltham, christopher",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "waltham, christopher",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "michal, carl",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "jones, david;michal, carl",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "jones, david",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "jones, david",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "jones, david;michal, carl",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "352"
+        },
+        {
+            "courses_instructor": "vogt, erich",
+            "courses_id": "107"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "107"
+        },
+        {
+            "courses_instructor": "zhitnitsky, ariel",
+            "courses_id": "108"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "108"
+        },
+        {
+            "courses_instructor": "unruh, william",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "unruh, william",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "halpern, mark",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "halpern, mark",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "unruh, william",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "unruh, william",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "unruh, william",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "unruh, william",
+            "courses_id": "341"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "341"
+        }
+    ]
+}

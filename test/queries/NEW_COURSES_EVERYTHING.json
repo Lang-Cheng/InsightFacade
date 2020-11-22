@@ -1,0 +1,543 @@
+{
+    "title": "SELECT seats",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "courses_pass": 0
+                    }
+                },
+                {
+                    "LT": {
+                        "courses_pass": 60
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "count",
+                "max",
+                "min",
+                "avg",
+                "sum"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": [
+                    "count",
+                    "min"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_pass"
+            ],
+            "APPLY": [
+                {
+                    "count": {
+                        "COUNT": "courses_pass"
+                    }
+                },
+                {
+                    "max": {
+                        "MAX": "courses_pass"
+                    }
+                },
+                {
+                    "min": {
+                        "MIN": "courses_pass"
+                    }
+                },
+                {
+                    "avg": {
+                        "AVG": "courses_pass"
+                    }
+                },
+                {
+                    "sum": {
+                        "SUM": "courses_pass"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_pass": 1,
+            "count": 1,
+            "max": 1,
+            "min": 1,
+            "avg": 1,
+            "sum": 181
+        },
+        {
+            "courses_pass": 2,
+            "count": 1,
+            "max": 2,
+            "min": 2,
+            "avg": 2,
+            "sum": 502
+        },
+        {
+            "courses_pass": 3,
+            "count": 1,
+            "max": 3,
+            "min": 3,
+            "avg": 3,
+            "sum": 1089
+        },
+        {
+            "courses_pass": 4,
+            "count": 1,
+            "max": 4,
+            "min": 4,
+            "avg": 4,
+            "sum": 5032
+        },
+        {
+            "courses_pass": 5,
+            "count": 1,
+            "max": 5,
+            "min": 5,
+            "avg": 5,
+            "sum": 5515
+        },
+        {
+            "courses_pass": 6,
+            "count": 1,
+            "max": 6,
+            "min": 6,
+            "avg": 6,
+            "sum": 7344
+        },
+        {
+            "courses_pass": 7,
+            "count": 1,
+            "max": 7,
+            "min": 7,
+            "avg": 7,
+            "sum": 7896
+        },
+        {
+            "courses_pass": 8,
+            "count": 1,
+            "max": 8,
+            "min": 8,
+            "avg": 8,
+            "sum": 9912
+        },
+        {
+            "courses_pass": 9,
+            "count": 1,
+            "max": 9,
+            "min": 9,
+            "avg": 9,
+            "sum": 10485
+        },
+        {
+            "courses_pass": 10,
+            "count": 1,
+            "max": 10,
+            "min": 10,
+            "avg": 10,
+            "sum": 12360
+        },
+        {
+            "courses_pass": 11,
+            "count": 1,
+            "max": 11,
+            "min": 11,
+            "avg": 11,
+            "sum": 13332
+        },
+        {
+            "courses_pass": 12,
+            "count": 1,
+            "max": 12,
+            "min": 12,
+            "avg": 12,
+            "sum": 15468
+        },
+        {
+            "courses_pass": 13,
+            "count": 1,
+            "max": 13,
+            "min": 13,
+            "avg": 13,
+            "sum": 16003
+        },
+        {
+            "courses_pass": 14,
+            "count": 1,
+            "max": 14,
+            "min": 14,
+            "avg": 14,
+            "sum": 18900
+        },
+        {
+            "courses_pass": 15,
+            "count": 1,
+            "max": 15,
+            "min": 15,
+            "avg": 15,
+            "sum": 19845
+        },
+        {
+            "courses_pass": 16,
+            "count": 1,
+            "max": 16,
+            "min": 16,
+            "avg": 16,
+            "sum": 20560
+        },
+        {
+            "courses_pass": 17,
+            "count": 1,
+            "max": 17,
+            "min": 17,
+            "avg": 17,
+            "sum": 21386
+        },
+        {
+            "courses_pass": 18,
+            "count": 1,
+            "max": 18,
+            "min": 18,
+            "avg": 18,
+            "sum": 23562
+        },
+        {
+            "courses_pass": 19,
+            "count": 1,
+            "max": 19,
+            "min": 19,
+            "avg": 19,
+            "sum": 26942
+        },
+        {
+            "courses_pass": 20,
+            "count": 1,
+            "max": 20,
+            "min": 20,
+            "avg": 20,
+            "sum": 30100
+        },
+        {
+            "courses_pass": 21,
+            "count": 1,
+            "max": 21,
+            "min": 21,
+            "avg": 21,
+            "sum": 25578
+        },
+        {
+            "courses_pass": 22,
+            "count": 1,
+            "max": 22,
+            "min": 22,
+            "avg": 22,
+            "sum": 25454
+        },
+        {
+            "courses_pass": 23,
+            "count": 1,
+            "max": 23,
+            "min": 23,
+            "avg": 23,
+            "sum": 25162
+        },
+        {
+            "courses_pass": 24,
+            "count": 1,
+            "max": 24,
+            "min": 24,
+            "avg": 24,
+            "sum": 26640
+        },
+        {
+            "courses_pass": 25,
+            "count": 1,
+            "max": 25,
+            "min": 25,
+            "avg": 25,
+            "sum": 26400
+        },
+        {
+            "courses_pass": 26,
+            "count": 1,
+            "max": 26,
+            "min": 26,
+            "avg": 26,
+            "sum": 26208
+        },
+        {
+            "courses_pass": 27,
+            "count": 1,
+            "max": 27,
+            "min": 27,
+            "avg": 27,
+            "sum": 25164
+        },
+        {
+            "courses_pass": 28,
+            "count": 1,
+            "max": 28,
+            "min": 28,
+            "avg": 28,
+            "sum": 26348
+        },
+        {
+            "courses_pass": 29,
+            "count": 1,
+            "max": 29,
+            "min": 29,
+            "avg": 29,
+            "sum": 26042
+        },
+        {
+            "courses_pass": 30,
+            "count": 1,
+            "max": 30,
+            "min": 30,
+            "avg": 30,
+            "sum": 27570
+        },
+        {
+            "courses_pass": 31,
+            "count": 1,
+            "max": 31,
+            "min": 31,
+            "avg": 31,
+            "sum": 24614
+        },
+        {
+            "courses_pass": 32,
+            "count": 1,
+            "max": 32,
+            "min": 32,
+            "avg": 32,
+            "sum": 27520
+        },
+        {
+            "courses_pass": 33,
+            "count": 1,
+            "max": 33,
+            "min": 33,
+            "avg": 33,
+            "sum": 27885
+        },
+        {
+            "courses_pass": 34,
+            "count": 1,
+            "max": 34,
+            "min": 34,
+            "avg": 34,
+            "sum": 28492
+        },
+        {
+            "courses_pass": 35,
+            "count": 1,
+            "max": 35,
+            "min": 35,
+            "avg": 35,
+            "sum": 25305
+        },
+        {
+            "courses_pass": 36,
+            "count": 1,
+            "max": 36,
+            "min": 36,
+            "avg": 36,
+            "sum": 22860
+        },
+        {
+            "courses_pass": 37,
+            "count": 1,
+            "max": 37,
+            "min": 37,
+            "avg": 37,
+            "sum": 24568
+        },
+        {
+            "courses_pass": 38,
+            "count": 1,
+            "max": 38,
+            "min": 38,
+            "avg": 38,
+            "sum": 24776
+        },
+        {
+            "courses_pass": 39,
+            "count": 1,
+            "max": 39,
+            "min": 39,
+            "avg": 39,
+            "sum": 27417
+        },
+        {
+            "courses_pass": 40,
+            "count": 1,
+            "max": 40,
+            "min": 40,
+            "avg": 40,
+            "sum": 28120
+        },
+        {
+            "courses_pass": 41,
+            "count": 1,
+            "max": 41,
+            "min": 41,
+            "avg": 41,
+            "sum": 24682
+        },
+        {
+            "courses_pass": 42,
+            "count": 1,
+            "max": 42,
+            "min": 42,
+            "avg": 42,
+            "sum": 23688
+        },
+        {
+            "courses_pass": 43,
+            "count": 1,
+            "max": 43,
+            "min": 43,
+            "avg": 43,
+            "sum": 23521
+        },
+        {
+            "courses_pass": 44,
+            "count": 1,
+            "max": 44,
+            "min": 44,
+            "avg": 44,
+            "sum": 24112
+        },
+        {
+            "courses_pass": 45,
+            "count": 1,
+            "max": 45,
+            "min": 45,
+            "avg": 45,
+            "sum": 23670
+        },
+        {
+            "courses_pass": 46,
+            "count": 1,
+            "max": 46,
+            "min": 46,
+            "avg": 46,
+            "sum": 24380
+        },
+        {
+            "courses_pass": 47,
+            "count": 1,
+            "max": 47,
+            "min": 47,
+            "avg": 47,
+            "sum": 20539
+        },
+        {
+            "courses_pass": 48,
+            "count": 1,
+            "max": 48,
+            "min": 48,
+            "avg": 48,
+            "sum": 22704
+        },
+        {
+            "courses_pass": 49,
+            "count": 1,
+            "max": 49,
+            "min": 49,
+            "avg": 49,
+            "sum": 19796
+        },
+        {
+            "courses_pass": 50,
+            "count": 1,
+            "max": 50,
+            "min": 50,
+            "avg": 50,
+            "sum": 21550
+        },
+        {
+            "courses_pass": 51,
+            "count": 1,
+            "max": 51,
+            "min": 51,
+            "avg": 51,
+            "sum": 19635
+        },
+        {
+            "courses_pass": 52,
+            "count": 1,
+            "max": 52,
+            "min": 52,
+            "avg": 52,
+            "sum": 17576
+        },
+        {
+            "courses_pass": 53,
+            "count": 1,
+            "max": 53,
+            "min": 53,
+            "avg": 53,
+            "sum": 19398
+        },
+        {
+            "courses_pass": 54,
+            "count": 1,
+            "max": 54,
+            "min": 54,
+            "avg": 54,
+            "sum": 18036
+        },
+        {
+            "courses_pass": 55,
+            "count": 1,
+            "max": 55,
+            "min": 55,
+            "avg": 55,
+            "sum": 19470
+        },
+        {
+            "courses_pass": 56,
+            "count": 1,
+            "max": 56,
+            "min": 56,
+            "avg": 56,
+            "sum": 18144
+        },
+        {
+            "courses_pass": 57,
+            "count": 1,
+            "max": 57,
+            "min": 57,
+            "avg": 57,
+            "sum": 16872
+        },
+        {
+            "courses_pass": 58,
+            "count": 1,
+            "max": 58,
+            "min": 58,
+            "avg": 58,
+            "sum": 16414
+        },
+        {
+            "courses_pass": 59,
+            "count": 1,
+            "max": 59,
+            "min": 59,
+            "avg": 59,
+            "sum": 18526
+        }
+    ]
+}

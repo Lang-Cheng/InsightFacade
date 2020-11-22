@@ -1,0 +1,11 @@
+{
+    "title": "COLUMNS must be a non-empty array",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": ""
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

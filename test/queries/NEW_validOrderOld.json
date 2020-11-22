@@ -1,0 +1,69 @@
+{
+    "title": "SELECT courses_avg, countid WHERE 89 < courses_avg < 89.1 ORDER by courses_avg, GROUP by courses_avg, COUNT courses_id",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "LT": {
+                        "courses_avg": 89.1
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_avg": 89
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg",
+                "countid"
+            ],
+            "ORDER": "courses_avg"
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_avg"
+            ],
+            "APPLY": [
+                {
+                    "countid": {
+                        "COUNT": "courses_id"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_avg": 89.03,
+            "countid": 1
+        },
+        {
+            "courses_avg": 89.04,
+            "countid": 1
+        },
+        {
+            "courses_avg": 89.05,
+            "countid": 6
+        },
+        {
+            "courses_avg": 89.06,
+            "countid": 6
+        },
+        {
+            "courses_avg": 89.07,
+            "countid": 5
+        },
+        {
+            "courses_avg": 89.08,
+            "countid": 8
+        },
+        {
+            "courses_avg": 89.09,
+            "countid": 2
+        }
+    ]
+}

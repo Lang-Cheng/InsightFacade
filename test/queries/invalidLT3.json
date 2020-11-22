@@ -1,0 +1,18 @@
+{
+    "title": "Invalid key in LT",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "": ""
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

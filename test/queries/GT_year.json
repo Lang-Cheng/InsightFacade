@@ -1,0 +1,40 @@
+{
+    "title": "SELECT title, uuid WHERE year > 2015 and dept = apsc",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "courses_year": 2015
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_dept": "apsc"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_uuid"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_title": "eng analysis i",
+            "courses_uuid": "40811"
+        },
+        {
+            "courses_title": "matter&enrgy i",
+            "courses_uuid": "40813"
+        },
+        {
+            "courses_title": "weap & arms cntl",
+            "courses_uuid": "40815"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Cannot read property 'GROUP' of undefined",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "123"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,31 @@
+{
+    "title": "SELECT audit, avg WHERE fail = 90",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "courses_fail": 90
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_fail",
+                "courses_pass"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_fail": 90,
+            "courses_pass": 461
+        },
+        {
+            "courses_fail": 90,
+            "courses_pass": 1497
+        },
+        {
+            "courses_fail": 90,
+            "courses_pass": 1058
+        }
+    ]
+}

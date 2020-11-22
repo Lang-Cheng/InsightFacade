@@ -1,0 +1,18 @@
+{
+    "title": "Asterisks (*) can only be the first or last characters of input strings",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "CS**"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_pass",
+                "courses_year"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

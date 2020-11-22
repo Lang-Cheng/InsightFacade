@@ -1,0 +1,32 @@
+{
+    "title": "SELECT instructor, dept WHERE !!(dept = adhe and avg > 99)",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "IS": {
+                        "courses_dept": "adhe"
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_avg": 94
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_instructor": "bishundayal, deonarine",
+            "courses_dept": "adhe"
+        }
+    ]
+}

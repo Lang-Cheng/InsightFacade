@@ -1,0 +1,13 @@
+{
+    "title": "Referenced dataset wrongDatabase not added yet",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "wrongDatabase_dept"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Invalid keys in OPTIONS",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept"
+            ],
+            "IAmNotValid": "FFFF"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

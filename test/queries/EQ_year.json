@@ -1,0 +1,160 @@
+{
+    "title": "SELECT dept, id WHERE year = 2019 and instructor = daniel*",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "LT": {
+                        "courses_year": 2019
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_instructor": "daniel*"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "cogs",
+            "courses_id": "300"
+        },
+        {
+            "courses_dept": "cogs",
+            "courses_id": "300"
+        },
+        {
+            "courses_dept": "cogs",
+            "courses_id": "300"
+        },
+        {
+            "courses_dept": "cogs",
+            "courses_id": "300"
+        },
+        {
+            "courses_dept": "cogs",
+            "courses_id": "300"
+        },
+        {
+            "courses_dept": "cogs",
+            "courses_id": "300"
+        },
+        {
+            "courses_dept": "cogs",
+            "courses_id": "300"
+        },
+        {
+            "courses_dept": "cogs",
+            "courses_id": "300"
+        },
+        {
+            "courses_dept": "cogs",
+            "courses_id": "300"
+        },
+        {
+            "courses_dept": "cogs",
+            "courses_id": "300"
+        },
+        {
+            "courses_dept": "cogs",
+            "courses_id": "300"
+        },
+        {
+            "courses_dept": "comm",
+            "courses_id": "203"
+        },
+        {
+            "courses_dept": "comm",
+            "courses_id": "203"
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "100"
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "100"
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "110"
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "220"
+        },
+        {
+            "courses_dept": "engl",
+            "courses_id": "490"
+        },
+        {
+            "courses_dept": "frst",
+            "courses_id": "211"
+        },
+        {
+            "courses_dept": "frst",
+            "courses_id": "211"
+        },
+        {
+            "courses_dept": "frst",
+            "courses_id": "211"
+        },
+        {
+            "courses_dept": "frst",
+            "courses_id": "320"
+        },
+        {
+            "courses_dept": "frst",
+            "courses_id": "320"
+        },
+        {
+            "courses_dept": "frst",
+            "courses_id": "320"
+        },
+        {
+            "courses_dept": "frst",
+            "courses_id": "320"
+        },
+        {
+            "courses_dept": "geob",
+            "courses_id": "102"
+        },
+        {
+            "courses_dept": "geob",
+            "courses_id": "102"
+        },
+        {
+            "courses_dept": "geob",
+            "courses_id": "207"
+        },
+        {
+            "courses_dept": "geob",
+            "courses_id": "207"
+        },
+        {
+            "courses_dept": "geob",
+            "courses_id": "407"
+        },
+        {
+            "courses_dept": "geob",
+            "courses_id": "407"
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_id": "315"
+        },
+        {
+            "courses_dept": "psyc",
+            "courses_id": "315"
+        }
+    ]
+}

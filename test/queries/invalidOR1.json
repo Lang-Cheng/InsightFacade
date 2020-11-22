@@ -1,0 +1,16 @@
+{
+    "title": "OR must be a non-empty array",
+    "query": {
+        "WHERE": {
+            "OR": ""
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

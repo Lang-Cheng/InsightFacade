@@ -1,0 +1,191 @@
+{
+    "title": "SELECT instructor, dept WHERE title = physics*",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "IS": {
+                        "courses_title": "physics*"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_instructor": "waltham, christopher",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "jones, david",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "jones, david;michal, carl",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "jones, david",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "jones, david;michal, carl",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "michal, carl;pennec, yan herve loic",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "michal, carl",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "michal, carl;pennec, yan herve loic",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "michal, carl",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "waltham, christopher",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "waltham, christopher",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "waltham, christopher",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "michal, carl",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "jones, david;michal, carl",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "jones, david",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "jones, david",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "jones, david;michal, carl",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "enph"
+        },
+        {
+            "courses_instructor": "vogt, erich",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "zhitnitsky, ariel",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "unruh, william",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "unruh, william",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "halpern, mark",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "halpern, mark",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "unruh, william",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "unruh, william",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "unruh, william",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "unruh, william",
+            "courses_dept": "phys"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "phys"
+        }
+    ]
+}

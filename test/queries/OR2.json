@@ -1,0 +1,77 @@
+{
+    "title": "SELECT instructor, dept WHERE avg > 99 or avg < 1 or instructor = cox, daniel",
+    "query": {
+        "WHERE": {
+            "OR": [{
+                    "GT": {
+                        "courses_avg": 99
+                    }
+                },
+                {
+                    "LT": {
+                        "courses_avg": 1
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_instructor": "cox, daniel"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_avg",
+                "courses_instructor",
+                "courses_dept"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [{
+        "courses_avg": 0,
+        "courses_instructor": "",
+        "courses_dept": "lfs"
+    }, {
+        "courses_avg": 0,
+        "courses_instructor": "",
+        "courses_dept": "frst"
+    }, {
+        "courses_avg": 0,
+        "courses_instructor": "",
+        "courses_dept": "lfs"
+    }, {
+        "courses_avg": 87.22,
+        "courses_instructor": "cox, daniel",
+        "courses_dept": "cnps"
+    }, {
+        "courses_avg": 90.19,
+        "courses_instructor": "cox, daniel",
+        "courses_dept": "cnps"
+    }, {
+        "courses_avg": 92.32,
+        "courses_instructor": "cox, daniel",
+        "courses_dept": "cnps"
+    }, {
+        "courses_avg": 93.67,
+        "courses_instructor": "cox, daniel",
+        "courses_dept": "cnps"
+    }, {
+        "courses_avg": 96.33,
+        "courses_instructor": "cox, daniel",
+        "courses_dept": "cnps"
+    }, {
+        "courses_avg": 99.19,
+        "courses_instructor": "cox, daniel",
+        "courses_dept": "cnps"
+    }, {
+        "courses_avg": 99.78,
+        "courses_instructor": "gomez, jose",
+        "courses_dept": "math"
+    }, {
+        "courses_avg": 99.78,
+        "courses_instructor": "",
+        "courses_dept": "math"
+    }]
+}

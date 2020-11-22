@@ -1,0 +1,948 @@
+{
+    "title": "SELECT id, dept WHERE audit < 1 and courses_dept = adhe",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "LT": {
+                        "courses_audit": 1
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_dept": "adhe"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_id",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "327",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "328",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "328",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "328",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "328",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "328",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "328",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "328",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "329",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "330",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        },
+        {
+            "courses_id": "412",
+            "courses_dept": "adhe"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "title": "Cannot query more than one dataset",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "course_id": "123"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,16 @@
+{
+    "title": "IS must be object",
+    "query": {
+        "WHERE": {
+            "IS": ""
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

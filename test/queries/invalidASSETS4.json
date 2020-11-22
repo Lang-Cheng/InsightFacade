@@ -1,0 +1,6 @@
+{
+    "title": "Invalid query string",
+    "query": "asdf",
+    "isQueryValid": false,
+    "result": "InsightError"
+}

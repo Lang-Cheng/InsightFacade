@@ -1,0 +1,8 @@
+{
+    "title": "WHERE must be object",
+    "query": {
+        "WHERE": "123"
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

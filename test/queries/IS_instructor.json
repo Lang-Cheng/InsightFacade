@@ -1,0 +1,51 @@
+{
+    "title": "SELECT instructor, id WHERE instructor = mong*",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_instructor": "mong*"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_id"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_instructor": "monga, vishakha",
+            "courses_id": "121"
+        },
+        {
+            "courses_instructor": "monga, vishakha",
+            "courses_id": "123"
+        },
+        {
+            "courses_instructor": "monga, vishakha",
+            "courses_id": "250"
+        },
+        {
+            "courses_instructor": "monga, vishakha",
+            "courses_id": "250"
+        },
+        {
+            "courses_instructor": "monga, vishakha",
+            "courses_id": "250"
+        },
+        {
+            "courses_instructor": "monga, vishakha",
+            "courses_id": "250"
+        },
+        {
+            "courses_instructor": "monga, vishakha",
+            "courses_id": "250"
+        },
+        {
+            "courses_instructor": "monga, vishakha",
+            "courses_id": "301"
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "title": "Complex average",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "rooms_seats": 200
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_name",
+                "avg"
+            ],
+            "ORDER": "rooms_name"
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_name"
+            ],
+            "APPLY": [
+                {
+                    "avg": {
+                        "AVG": "rooms_seats"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "rooms_name": "ANGU_098",
+            "avg": 260
+        },
+        {
+            "rooms_name": "BIOL_2000",
+            "avg": 228
+        },
+        {
+            "rooms_name": "BUCH_A101",
+            "avg": 275
+        },
+        {
+            "rooms_name": "CHEM_B150",
+            "avg": 265
+        },
+        {
+            "rooms_name": "CHEM_B250",
+            "avg": 240
+        },
+        {
+            "rooms_name": "CIRS_1250",
+            "avg": 426
+        },
+        {
+            "rooms_name": "ESB_1013",
+            "avg": 350
+        },
+        {
+            "rooms_name": "FSC_1005",
+            "avg": 250
+        },
+        {
+            "rooms_name": "GEOG_100",
+            "avg": 225
+        },
+        {
+            "rooms_name": "HEBB_100",
+            "avg": 375
+        },
+        {
+            "rooms_name": "HENN_200",
+            "avg": 257
+        },
+        {
+            "rooms_name": "LSC_1001",
+            "avg": 350
+        },
+        {
+            "rooms_name": "LSC_1002",
+            "avg": 350
+        },
+        {
+            "rooms_name": "LSK_200",
+            "avg": 205
+        },
+        {
+            "rooms_name": "MATH_100",
+            "avg": 224
+        },
+        {
+            "rooms_name": "OSBO_A",
+            "avg": 442
+        },
+        {
+            "rooms_name": "PHRM_1101",
+            "avg": 236
+        },
+        {
+            "rooms_name": "SCRF_100",
+            "avg": 280
+        },
+        {
+            "rooms_name": "SRC_220A",
+            "avg": 299
+        },
+        {
+            "rooms_name": "SRC_220B",
+            "avg": 299
+        },
+        {
+            "rooms_name": "SRC_220C",
+            "avg": 299
+        },
+        {
+            "rooms_name": "WESB_100",
+            "avg": 325
+        },
+        {
+            "rooms_name": "WOOD_2",
+            "avg": 503
+        }
+    ]
+}

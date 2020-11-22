@@ -1,0 +1,403 @@
+{
+    "title": "SELECT instructor, id WHERE uuid = 123*",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_uuid": "123*"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_id"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_instructor": "tsuda, asami",
+            "courses_id": "102"
+        },
+        {
+            "courses_instructor": "kazama, misuzu",
+            "courses_id": "102"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "102"
+        },
+        {
+            "courses_instructor": "ode, maki",
+            "courses_id": "103"
+        },
+        {
+            "courses_instructor": "ode, maki",
+            "courses_id": "103"
+        },
+        {
+            "courses_instructor": "tsuda, asami",
+            "courses_id": "103"
+        },
+        {
+            "courses_instructor": "tsuda, asami",
+            "courses_id": "103"
+        },
+        {
+            "courses_instructor": "yonemoto, kazuhiro",
+            "courses_id": "103"
+        },
+        {
+            "courses_instructor": "tsuda, asami",
+            "courses_id": "103"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "103"
+        },
+        {
+            "courses_instructor": "kim, ihhwa",
+            "courses_id": "150"
+        },
+        {
+            "courses_instructor": "nakata, masahiko",
+            "courses_id": "150"
+        },
+        {
+            "courses_instructor": "kazama, misuzu",
+            "courses_id": "150"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "150"
+        },
+        {
+            "courses_instructor": "kim, ihhwa",
+            "courses_id": "151"
+        },
+        {
+            "courses_instructor": "nakata, masahiko",
+            "courses_id": "151"
+        },
+        {
+            "courses_instructor": "kazama, misuzu",
+            "courses_id": "151"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "151"
+        },
+        {
+            "courses_instructor": "yonemoto, kazuhiro",
+            "courses_id": "210"
+        },
+        {
+            "courses_instructor": "kazama, misuzu",
+            "courses_id": "210"
+        },
+        {
+            "courses_instructor": "kazama, misuzu",
+            "courses_id": "210"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "210"
+        },
+        {
+            "courses_instructor": "yonemoto, kazuhiro",
+            "courses_id": "211"
+        },
+        {
+            "courses_instructor": "kazama, misuzu",
+            "courses_id": "211"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "211"
+        },
+        {
+            "courses_instructor": "hayashi, hisako",
+            "courses_id": "212"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "212"
+        },
+        {
+            "courses_instructor": "hayashi, hisako",
+            "courses_id": "213"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "213"
+        },
+        {
+            "courses_instructor": "watai, fumiko",
+            "courses_id": "250"
+        },
+        {
+            "courses_instructor": "fan, belen",
+            "courses_id": "250"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "250"
+        },
+        {
+            "courses_instructor": "watai, fumiko",
+            "courses_id": "251"
+        },
+        {
+            "courses_instructor": "fan, belen",
+            "courses_id": "251"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "251"
+        },
+        {
+            "courses_instructor": "watai, fumiko",
+            "courses_id": "300"
+        },
+        {
+            "courses_instructor": "watai, fumiko",
+            "courses_id": "300"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "300"
+        },
+        {
+            "courses_instructor": "watai, fumiko",
+            "courses_id": "301"
+        },
+        {
+            "courses_instructor": "watai, fumiko",
+            "courses_id": "301"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "301"
+        },
+        {
+            "courses_instructor": "koizumi, keiko",
+            "courses_id": "302"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "302"
+        },
+        {
+            "courses_instructor": "koizumi, keiko",
+            "courses_id": "303"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "303"
+        },
+        {
+            "courses_instructor": "mostow, joshua scott",
+            "courses_id": "311"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "311"
+        },
+        {
+            "courses_instructor": "tsuda, asami",
+            "courses_id": "314"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "314"
+        },
+        {
+            "courses_instructor": "tsuda, asami",
+            "courses_id": "315"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "315"
+        },
+        {
+            "courses_instructor": "kim, ihhwa",
+            "courses_id": "406"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "406"
+        },
+        {
+            "courses_instructor": "kubota, ryuko",
+            "courses_id": "406"
+        },
+        {
+            "courses_instructor": "clerici, nathen",
+            "courses_id": "408"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "408"
+        },
+        {
+            "courses_instructor": "nishizawa, sumiko",
+            "courses_id": "410"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "410"
+        },
+        {
+            "courses_instructor": "itoh, ikuko",
+            "courses_id": "416"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "416"
+        },
+        {
+            "courses_instructor": "bingle, wade",
+            "courses_id": "201"
+        },
+        {
+            "courses_instructor": "bingle, wade",
+            "courses_id": "201"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "201"
+        },
+        {
+            "courses_instructor": "kion, tracy",
+            "courses_id": "202"
+        },
+        {
+            "courses_instructor": "kion, tracy",
+            "courses_id": "202"
+        },
+        {
+            "courses_instructor": "kion, tracy",
+            "courses_id": "202"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "202"
+        },
+        {
+            "courses_instructor": "smith, karen",
+            "courses_id": "203"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "203"
+        },
+        {
+            "courses_instructor": "mohn, william",
+            "courses_id": "301"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "301"
+        },
+        {
+            "courses_instructor": "johnson, pauline;kion, tracy",
+            "courses_id": "302"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "302"
+        },
+        {
+            "courses_instructor": "jean, francois;kion, tracy",
+            "courses_id": "306"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "306"
+        },
+        {
+            "courses_instructor": "fernandez, rachel",
+            "courses_id": "308"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "308"
+        },
+        {
+            "courses_instructor": "sibley, jennifer",
+            "courses_id": "322"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "322"
+        },
+        {
+            "courses_instructor": "hinze, ehleen",
+            "courses_id": "323"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "323"
+        },
+        {
+            "courses_instructor": "beatty, john",
+            "courses_id": "325"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "325"
+        },
+        {
+            "courses_instructor": "smith, karen",
+            "courses_id": "353"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "353"
+        },
+        {
+            "courses_instructor": "bingle, wade",
+            "courses_id": "401"
+        },
+        {
+            "courses_instructor": "bingle, wade",
+            "courses_id": "401"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "401"
+        },
+        {
+            "courses_instructor": "harder, kenneth",
+            "courses_id": "402"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "402"
+        },
+        {
+            "courses_instructor": "hancock, robert e",
+            "courses_id": "404"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "404"
+        },
+        {
+            "courses_instructor": "hirst, martin",
+            "courses_id": "405"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "405"
+        },
+        {
+            "courses_instructor": "horwitz, marc;jean, francois",
+            "courses_id": "406"
+        },
+        {
+            "courses_instructor": "",
+            "courses_id": "406"
+        }
+    ]
+}

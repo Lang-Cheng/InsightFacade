@@ -1,0 +1,13 @@
+{
+    "title": "Invalid type of COLUMN key",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                123
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

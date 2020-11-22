@@ -1,0 +1,16 @@
+{
+    "title": "NOT must be object",
+    "query": {
+        "WHERE": {
+            "NOT": ""
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

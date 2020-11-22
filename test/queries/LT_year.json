@@ -1,0 +1,292 @@
+{
+    "title": "SELECT title, uuid WHERE year < 1901 and courses_dept = adhe",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "LT": {
+                        "courses_year": 1901
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_dept": "adhe"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_uuid"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "8674"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "17257"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "19179"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "27555"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "36009"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "46419"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "62723"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "66144"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "68534"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "75622"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "78867"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "79473"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "85070"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "88896"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "91248"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_uuid": "91926"
+        },
+        {
+            "courses_title": "inst adul educ",
+            "courses_uuid": "19181"
+        },
+        {
+            "courses_title": "inst adul educ",
+            "courses_uuid": "36011"
+        },
+        {
+            "courses_title": "inst adul educ",
+            "courses_uuid": "68537"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "8678"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "17260"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "19184"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "27558"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "36017"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "46422"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "62728"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "66146"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "68544"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "75626"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "78871"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "79478"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "85073"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "88898"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "91250"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_uuid": "91929"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "8681"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "17263"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "19188"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "27561"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "36024"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "46425"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "62735"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "66148"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "68551"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "75629"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "78874"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "79483"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "85075"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "88900"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "91252"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_uuid": "91933"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "8684"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "17266"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "19191"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "27563"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "36029"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "46428"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "62739"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "66150"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "68558"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "75632"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "78877"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "79486"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "85077"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "91254"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_uuid": "91935"
+        }
+    ]
+}

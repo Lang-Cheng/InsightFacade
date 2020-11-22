@@ -1,0 +1,41 @@
+{
+    "title": "SELECT instructor, dept WHERE dept = cpsc and avg > 94 and avg < 95",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "IS": {
+                        "courses_dept": "cpsc"
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_avg": 94
+                    }
+                },
+                {
+                    "LT": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor",
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_instructor": "carenini, giuseppe",
+            "courses_dept": "cpsc"
+        },
+        {
+            "courses_instructor": "",
+            "courses_dept": "cpsc"
+        }
+    ]
+}

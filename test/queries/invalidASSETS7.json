@@ -1,0 +1,14 @@
+{
+    "title": "ORDER key must be in COLUMNS",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_audit"
+            ],
+            "ORDER": ""
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

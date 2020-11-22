@@ -1,0 +1,14 @@
+{
+    "title": "key.split is not a function",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_audit",
+                123
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

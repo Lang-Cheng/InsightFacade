@@ -1,0 +1,13 @@
+{
+    "title": "Invalid key courses_IBEATU in COLUMNS",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_IBEATU"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

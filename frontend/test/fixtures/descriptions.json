@@ -1,0 +1,10 @@
+{
+    "query1": "simple query IS comparison for department with two columns and old order syntax",
+    "query2": "multiple order fields, descending",
+    "query3": "multiple conditions",
+    "query4": "rooms simple query",
+    "query5": "rooms complex query",
+    "query6": "rooms with multiple transformations",
+    "query7": "courses with one order key",
+    "query8": "courses with NOT condition"
+}
